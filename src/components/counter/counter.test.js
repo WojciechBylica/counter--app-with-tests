@@ -8,16 +8,19 @@ describe('Counter component', () => {
     const result = wrapper.find('p');
     expect(result.text()).toBe('0');
   });
+
   it('should have initial state 10 if props start=10 provided', () => {
     const wrapper = shallow(<Counter start={10} />);
     const result = wrapper.find('p');
     expect(result.text()).toBe('10');
   });
+
   it('should have addition and subtraction buttons', () => {
     const wrapper = shallow(<Counter />);
     expect(wrapper.containsMatchingElement(<button>+</button>)).toEqual(true);
     expect(wrapper.containsMatchingElement(<button>-</button>)).toEqual(true);
   });
+
   it("should increment result if '+' button is clicked", () => {
     const wrapper = shallow(<Counter />);
     let result = wrapper.find('p');
@@ -27,6 +30,7 @@ describe('Counter component', () => {
     result = wrapper.find('p');
     expect(result.text()).toBe('1');
   });
+
   it("should decrease result if '-' button is clicked", () => {
     const wrapper = shallow(<Counter />);
     let result = wrapper.find('p');
