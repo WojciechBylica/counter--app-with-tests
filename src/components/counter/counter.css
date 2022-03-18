@@ -1,0 +1,49 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.counter__button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: #54a8f1;
+    cursor: pointer;
+    user-select: none,
+}
+
+.counter__button:hover {
+    filter: brightness(120%);
+}
+
+
+.counter__button--big {
+    width: 200px;
+}
+
+.counter__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.counter__input {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.counter__paragraph {
+    width: 200px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
