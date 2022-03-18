@@ -7,15 +7,12 @@ html {
 }
 
 body {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-repeat: no-repeat;
-  background-position: top;
-
   background-color: blue;
-  font-family: 'Libre Franklin', sans-serif;
   padding: 10px;
   font-size: 16px;
+  font-family: 'Lato', sans-serif;
 }
