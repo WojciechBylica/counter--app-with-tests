@@ -1,9 +1,14 @@
-# Getting Started with Create React App
+# Counter
+Simple counter with tests
+
+## tests
+- unit tests: enzyme
 
 ## Demo
 https://wojciechbylica.github.io/counter--app-with-tests/
 
 
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
