@@ -1,17 +1,31 @@
 # Counter
-Simple counter with tests
+Simple counter with tests. It's written for learning how to write unit and end to end tests.
 
-## tests
-- unit tests: enzyme
-
+- coded: 19.03.2022
+- author: Wojciech Bylica
 ## Demo
 https://wojciechbylica.github.io/counter--app-with-tests/
 
 
-# Getting Started with Create React App
+## tests
+### unit tests - enzyme.
+To run unit tests with enzyme, please install this repo and execute
+
+```bash
+npm run test
+```
+
+### E2E tests - cypress
+To run E2E tests with cypress, please install this repo and execute
+
+```bash
+npm run  cypress
+```
+
+### Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
